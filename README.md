@@ -9,9 +9,16 @@ $ npm install styled-components@latest
 $ npm install ts-node ts-alias tsconfig-paths
 ```
 
+>ToDo
+- alias 설정
+
 
 ### LoginHeader
-- image 파일 변경(1,2,3)
-- 완료 되었을 때 글씨 색 변경되게끔
-- 완료 되었을 때 `완료`라고 표시되게끔
-- 완료 되었을 때 숫자아이콘이 체크표시 아이콘으로 변경되게 
+컴포넌트
+- 메인컴포넌트: LoginHeader
+    - 스타일컴포넌트
+        - 버튼컴포넌트
+
+    - 기능컴포넌트
+        - 페이지에 따라서 화면이 다르게 나올 수 있게
+        - 완료된 step은 `넘버 아이콘`이 `체크 아이콘`으로 바뀔 수 있게
