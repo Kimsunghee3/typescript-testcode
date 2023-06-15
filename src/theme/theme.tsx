@@ -11,6 +11,10 @@ export const GlobalTheme = ({children}: Props ) => {
             secondaryColor: "#4C6F45",
             btnHover: "#799D71",
             btnColor: "#f2f2f2",
+        },
+
+        LoginHeaderTheme:{
+            backgroundColor: "#534343"
         }
     }
     return(

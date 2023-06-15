@@ -5,7 +5,7 @@ interface IBtn {
     height: string,
     margin?: string,
     backgroundColor: string,
-    content: string
+    content?: string,
 }
 
 const Btn = styled.button<IBtn>`
@@ -33,7 +33,6 @@ export const Button:React.FC<IBtn> = ({ width, height, margin, backgroundColor, 
             height={height} 
             margin={margin} 
             backgroundColor={backgroundColor}
-            content={content}
         >
             {content}
         </Btn>
